@@ -4,12 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace gRPCclient
+namespace gRPCclient2.Helpers
 {
-    internal class Program
+    internal class ProtoMapper
     {
-        static void Main(string[] args)
-        {
-        }
     }
 }
