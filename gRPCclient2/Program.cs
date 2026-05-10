@@ -17,7 +17,7 @@ namespace gRPCclient2
         {
             AppContext.SetSwitch("System.Net.Http.SocketsHttpHandler.Http2UnencryptedSupport", true);
 
-            Console.Write("Podaj adres serwera [http://localhost:5000]: ");
+            Console.Write("Podaj adres serwera [http://100.76.186.126:5000]: ");
             string? address = Console.ReadLine()?.Trim();
 
             if (string.IsNullOrWhiteSpace(address))
